@@ -24,6 +24,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "prestart": "node scripts/fetchSteamData.js",
+    "prebuild": "node scripts/fetchSteamData.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

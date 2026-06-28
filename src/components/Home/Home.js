@@ -1,15 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+
 import Particle from "../Particle";
 import Home2 from "./Home2";
-import Type from "./Type";
-import Techstack from "../About/Techstack";
-import Github from "../About/Github";
+
 import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillFacebook,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -20,31 +19,22 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
+            <Col md={12} className="home-header" style={{ textAlign: "center" }}>
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
+                {/* <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
-                </span>
+                </span> */}
               </h1>
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> M.ISRA ALFATTAH</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
+              <div style={{ padding: 30, textAlign: "center" }}>
+                {/* <Type /> */}
               </div>
-            </Col>
-
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
             </Col>
           </Row>
         </Container>
@@ -61,7 +51,7 @@ function Home() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Blibiiy"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -71,17 +61,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/muhammad-isra-alfattah-aa9843391/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -91,7 +71,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/israalfattah/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

@@ -7,7 +7,7 @@ function Github() {
     <Row
       style={{
         justifyContent: "center",
-        paddingBottom: "10px",
+        paddingBottom: "50px",
         color: "white",
       }}
     >
@@ -15,10 +15,10 @@ function Github() {
         Days I <strong className="purple">Code</strong>
       </h1>
       <GitHubCalendar
-        username="soumyajit4419"
+        username="Blibiiy"
         blockSize={30}
         blockMargin={10}
-        color="#c084f5"
+        color="#39d353"
         fontSize={20}
       />
     </Row>

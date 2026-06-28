@@ -1,56 +1,28 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
+
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
-          <Col md={8} className="home-about-description">
+        <Row style={{ justifyContent: "center" }}>
+          <Col md={10} className="home-about-description" style={{ textAlign: "center" }}>
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+            <p className="home-about-body" style={{ textAlign: "center" }}>
+              I am a <b className="purple">Game Programmer</b> with a solid technical foundation as a <b className="purple">Full-Stack Developer</b>. I have hands-on experience building web applications using <b className="purple">React, Node.js, Express, and MongoDB</b>.
               <br />
               <br />
-              I’m proficient in
-              <i>
-                <b className="purple">
-                  {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
-                </b>
-              </i>
-              — and I enjoy working across both backend and frontend stacks.
+              While I can manage the entire stack, my core strength and enjoyment lie in <b className="purple">backend architecture</b>. I naturally focus on <b className="purple">optimizing system performance</b>, writing clean code, and structuring highly maintainable databases and APIs.
               <br />
               <br />
-              My key areas of interest include developing
-              <i>
-                <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
-                </b>
-              </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              My journey with <b className="purple">Unity and C#</b> started two years ago when I spent time diving deep into the fundamentals and gaining solid hands-on experience. After focusing heavily on software engineering and full-stack systems, I have returned to my true passion with a renewed drive to master <b className="purple">game development</b> inside out.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              I am now looking for an intensive opportunity to deeply expand my skills and understand the <b className="purple">game development pipeline</b> as a whole. My ultimate goal is to learn how to build polished, highly playable games, and successfully <b className="purple">launch my career in the gaming industry</b>.
             </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
           </Col>
         </Row>
       </Container>
