@@ -29,7 +29,7 @@ function Projects() {
     {
       title: "Astro_View",
       imgPath: imgAstroView,
-      description: "Built a web application using Node.js and Express to aggregate and process microservices from multiple NASA APIs. Integrated Socket.IO to manage persistent web-socket connections for real-time traffic monitoring, storing analytics in MongoDB Atlas. Implemented node-cron and Nodemailer to programmatically broadcast daily automated dispatches to email subscribers via SMTP. Then designed a clean service abstraction layer using Axios to dynamically filter and handle geospatial data arrays from the NASA EONET platform.",
+      description: "Built a dynamic microservice-based web application using Node.js and Express to aggregate data from multiple NASA APIs, featuring an interactive homepage displaying automated Astronomy Picture of the Day (APOD) media assets. Integrated Socket.IO to manage persistent WebSocket connections for real-time visitor traffic monitoring, storing analytical data inside MongoDB Atlas. Implemented automated daily newsletter dispatches to subscribers via node-cron and Nodemailer using secure SMTP, while designing a clean service abstraction layer with Axios to dynamically filter geospatial data arrays from the NASA EONET platform.",
       ghLink: "https://github.com/Blibiiy/AstroView",
       demoLink: "https://astroview-8xz3.onrender.com",
       skills: ["Node.js", "Express", "Socket.IO", "MongoDB Atlas", "SMTP", "Axios"]

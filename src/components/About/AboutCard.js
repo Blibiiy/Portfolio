@@ -30,7 +30,7 @@ function AboutCard() {
             Hi there! I'm <span className="purple">Muhammad Isra Al Fattah</span>, a <span className="purple">Computer Science student</span> from Jambi, Indonesia, currently studying at <span className="purple">Universitas Negeri Padang</span>.
             <br />
             <br />
-            Right now, I am gaining hands-on experience as an intern at the <span className="purple">Global Atmosphere Watch (GAW) Station</span> in Bukit Kototabang, while also sharpening my technical skills as a <span className="purple">Full-Stack Developer</span> cohort member in <span className="purple">DBS Foundation's Coding Camp 2026</span>.
+            Right now, I am gaining hands-on experience as an intern at the <span className="purple">Global Atmosphere Watch (GAW) Station</span> in Bukit Kototabang as a <span className="purple">Research Software Engineer</span>, while also sharpening my technical skills as a <span className="purple">Full-Stack Developer</span> cohort member in <span className="purple">DBS Foundation's Coding Camp 2026</span>.
             <br />
             <br />
             Outside of studies and coding, I balance my time by hitting the <span className="purple">gym, playing guitar, reading, or watching movies</span>. But a huge part of my free time goes into <span className="purple">single-player games, especially Souls-likes</span>, with <span className="purple">Elden Ring</span> being my absolute favorite.

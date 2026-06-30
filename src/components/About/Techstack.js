@@ -19,7 +19,6 @@ function Techstack() {
     "Git",
     "Firebase",
     "Docker",
-    "Postgresql",
     "Python",
     "Flutter",
     "Tailwind",

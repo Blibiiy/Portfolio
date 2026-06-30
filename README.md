@@ -1,76 +1,92 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
+# M. Isra Al Fattah - Personal Portfolio Website
 
-<br/>
+This is a customized personal portfolio website built with **React.js**. It features a modern **Retro-Gaming / Tech-Minimalist** aesthetic with a slate and earth tone color palette, tailored to showcase skills in **Game Programming** and **Full-Stack Software Engineering**.
 
-<center>
+Developed by **M. Isra Al Fattah** (israalfattah), based on a modified template of Soumyajit's personal portfolio.
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+---
 
-</center>
+## Color Palette & Design System
+* **Primary Background**: `#2C3639` (Dark Slate / Charcoal)
+* **Secondary Elements**: `#3F4E4F` (Muted Green-Grey)
+* **Highlight / Accent**: `#A27B5C` (Warm Cokelat / Accent)
+* **Text / Light Elements**: `#DCD7C9` (Cream)
+* **Typography**: *Exo 2* for headings & buttons, *PT Mono* for descriptions & code elements.
+* **Vibe**: Clean retro gaming borders with flat shadows and smooth scale transitions.
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+---
 
-## TL;DR
+## Key Features & Pages
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+### 1. Home
+* Custom introduction outlining full-stack software engineering background and passion for game development.
+* Interactive retro social media links (GitHub, LinkedIn, Instagram).
+* Monospace type-writer animations (optional) and clean structure.
 
-## Built With
+### 2. About
+* **Bio Section**: A flowing, non-rigid layout where the profile picture wraps naturally with the descriptive text.
+* **Technical Skills & Tools**: Interactive grid of software development and game programming technology icons.
+* **GitHub Contribution Calendar**: Visual representation of active coding contributions using the custom brown accent theme.
+* **Steam Top Games**: Integration of a custom Node.js script that fetches real-time Steam gameplay metrics, displaying the top 11 most played games with custom playtime calculations.
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+### 3. Projects
+* Displayed in a wide **2x2 Grid Layout** for maximum readability.
+* Core projects highlighted:
+  1. **HEARTZ**: A speech therapy platform integrating an Express.js backend and a 2D CNN classifier.
+  2. **Ruang_Belajar**: A mobile app using Flutter and BLoC with gaze distraction and fatigue tracking.
+  3. **Astro_View**: A web app using Node.js/Express to aggregate NASA API microservices with Socket.IO.
+  4. **HeadGear_Classification**: A serverless Flutter mobile app utilizing TensorFlow Lite (TFLite) for offline computer vision.
+* Custom button layouts that dynamically adapt to show either GitHub, Demo, or both side-by-side.
 
-This project was built using these technologies.
+### 4.CV
+* Dedicated page to preview and directly download `Muhammad_Isra_Alfattah_CV.pdf` inside the same tab.
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+### 5.Certificate
+* Displays a comprehensive collection of **16 professional credentials** in a consistent grid layout.
+* **Unity/Game Dev certificates** are positioned at the very top (first 3), followed by 10 Dicoding credentials and 3 other Udemy credentials.
+* **Modal Lightbox Preview**: Clicking any certificate card opens a beautiful full-screen modal preview directly in the same tab, keeping the user in the app.
 
-## Features
+---
 
-**📖 Multi-Page Layout**
+## Tech Stack & Dependencies
+* **Core**: React.js (v17.0.2), React-Bootstrap, React Router DOM (v6)
+* **PDF rendering**: react-pdf
+* **Github Contributions**: react-github-calendar
+* **Icons**: react-icons (Tabler Icons, FontAwesome, Boxicons, AntDesign)
+* **Styling**: Custom CSS3 variables and Bootstrap grid
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+---
 
-**📱 Fully Responsive**
+## Getting Started & Setup
 
-## Getting Started
+### Prerequisites
+Make sure you have Node.js and npm installed on your machine.
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+### Installation
+1. Clone or download this repository.
+2. In the project directory, run:
+   ```bash
+   npm install
+   ```
 
-## 🛠 Installation and Setup Instructions
-
-1. Installation: `npm install`
-
-2. In the project directory, you can run: `npm start`
-
-Runs the app in the development mode.\
+### Running the App Locally
+Run the React development server:
+```bash
+npm start
+```
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
 
-## Usage Instructions
+### Updating Steam Data
+To sync your top 11 most played games from Steam:
+1. Ensure your Steam Web API Key and Steam ID are configured (usually in scripts/fetchSteamData.js or environment variables).
+2. Execute the fetch script:
+   ```bash
+   node scripts/fetchSteamData.js
+   ```
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
-
-### Show your support
-
-Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+### Production Build
+Create an optimized production bundle:
+```bash
+npm run build
+```
+The compiled files will be saved in the `build/` folder, ready for deployment.
